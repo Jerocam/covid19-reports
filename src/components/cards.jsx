@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { Card } from "react-bootstrap";
+import NumberFormat from 'react-number-format';
 
 function NewCard(props){
 
@@ -11,7 +12,7 @@ function NewCard(props){
             <Card.Body>
                 <Card.Title style={{fontSize:"2.9em"}}>{props.title}</Card.Title>
                 <Card.Text>
-                    <p style={{fontSize:"1.6em", fontWeight:'bold'}}>{props.text.toLocaleString()}</p>
+                    <NumberFormat style={{fontSize:"1.6em", fontWeight:'bold'}} value={props.text} displayType={'text'} thousandSeparator={true}/>
                 </Card.Text>
             </Card.Body>
         </Card>
