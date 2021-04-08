@@ -11,7 +11,7 @@ function NewCard(props){
             <Card.Body>
                 <Card.Title style={{fontSize:"2.9em"}}>{props.title}</Card.Title>
                 <Card.Text>
-                    <p style={{fontSize:"1.6em", fontWeight:'bold'}}>{props.text}</p>
+                    <p style={{fontSize:"1.6em", fontWeight:'bold'}}>{props.text.toLocaleString()}</p>
                 </Card.Text>
             </Card.Body>
         </Card>

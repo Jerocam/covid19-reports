@@ -5,6 +5,8 @@ import NewCard from './components/cards';
 import {BallTriangle} from '@agney/react-loading';
 
 function App() {
+  var today = new Date();
+  var getToday = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
@@ -45,6 +47,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="mb-5">COVID-19 Reports</h1>
+        <h2>Today: {getToday}</h2>
       </header>
       <main className="main">
         <Container fluid>
