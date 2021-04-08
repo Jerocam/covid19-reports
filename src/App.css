@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500&display=swap');
+
+.App {
+  text-align: center;
+  background-color: #e9e9e9;
+  min-height: 100vh;
+  padding:60px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.main{
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.App h1{
+  font-size: 3em;
+}
+
+.cardStyle {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
