@@ -61,7 +61,7 @@ function App() {
       <Container className="mt-5">
         <Alert variant='secondary' style={{fontSize:'1.3em'}}>
           Click{' '}
-          <Alert.Link href="#">here</Alert.Link> to get the source code from Github.
+          <Alert.Link href="https://github.com/Jerocam/covid19-reports">here</Alert.Link> to get the source code from Github.
         </Alert>
       </Container>
     </div>     
